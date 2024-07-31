@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px; 
+}
+.header-top{
+           width: 99.3%;
+           border: 5px solid black;
+}
+.container{
+          width: 1350px;
+}
+.clear-font{
+    clear: both;
+}
+.logo{
+    float: left;
+    padding: 7px;
+}
+
+.logo img{
+    width: 35px;
+    margin-top: 15px;
+}
+.main-menu{
+    float: left;
+}
+.main-menu ul li{
+    float: left;
+    padding: 15px;
+    height: 12px;
+    list-style: none;
+}
+.main-menu ul li a{
+    display: inline-block;
+    position: relative;
+    margin: 0px 0px;
+    text-decoration: none;
+}
+.main-menu ul li a:hover{
+            color: palegreen;
+}
+.search-bar{
+    float: left;
+    margin-top: 29px;
+    border-radius: 30px;
+}
+.search-bar input{
+    border-radius: 20px;
+}
+.search-btn{
+    position: absolute;
+    background: none;
+    border: 0;
+    left: 610px;
+    top: 35px;
+}
+.button{
+    float: right;
+    margin: 20px;   
+}
+.button button{
+    border-radius: 30px;
+    padding: 10px;
+}
+.button button:hover{
+        background-color: bisque;
+        color: grey;
+}
+.new-menu{
+    background-color: black;
+    margin-top: 0px;
+    position: relative;
+    bottom: 16px;
+}
+.new-menu ul li{
+    color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 13px;
+}
+.left-content{
+    background-color: whitesmoke;
+    width: 28%;
+    height: 500px;
+    overflow: scroll;
+    position: relative;
+    bottom: 0px;
+    display: inline-block;
+}
+.left-content ul li{
+    list-style: none;
+}
+.right-content{
+    background-color: whitesmoke;
+    width: 71.5%;
+    height: 500px;
+    overflow: scroll;
+    position: relative;
+    bottom: 0px;
+    border: 2px solid black;
+    float: right;
+}
+.right-content p{
+    text-align: justify;
+}
